@@ -59,8 +59,7 @@ class _FirstPageState extends State<FirstPage> {
                           borderRadius: BorderRadius.circular(16)
                         ),
                         padding: EdgeInsets.all(18),
-                        backgroundColor: Color.fromRGBO(241, 234, 255, 1),
-                        foregroundColor: Color.fromRGBO(120, 86, 214, 1),
+                        backgroundColor: Color.fromRGBO(120, 86, 214, 1),
                         elevation: 0,
                         shadowColor: Colors.transparent,
                         textStyle: TextStyle(
