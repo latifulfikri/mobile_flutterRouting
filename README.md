@@ -1,3 +1,7 @@
-# route_flutter
+# Flutter - Routing
 
-A new Flutter project.
+GSLC Session 17
+Mobile Programming
+Computer Science
+BINUS Univeristy
+
