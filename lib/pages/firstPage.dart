@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class FirstPage extends StatefulWidget {
   const FirstPage({super.key});
@@ -67,7 +68,7 @@ class _FirstPageState extends State<FirstPage> {
                         )
                       ),
                       onPressed: () {
-                        
+                        context.push('/list');
                       },
                       child: Text("GO NEXT")
                     ),

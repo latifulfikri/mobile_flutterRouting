@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:route_flutter/pages/firstPage.dart';
+import 'package:route_flutter/pages/secondPage.dart';
 
 class AppNavigation {
 
@@ -21,6 +22,11 @@ class AppNavigation {
       GoRoute(
         path: '/',
         builder: (context, state) => FirstPage(),
+      ),
+      // assign second page
+      GoRoute(
+        path: '/list',
+        builder: (context,state) => SecondPage(),
       )
     ]
   );
