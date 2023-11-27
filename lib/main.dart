@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:route_flutter/pages/firstPage.dart';
 import 'package:route_flutter/routes.dart';
 
 void main() {
