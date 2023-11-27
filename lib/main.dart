@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:route_flutter/pages/firstPage.dart';
+import 'package:route_flutter/routes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,9 +11,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
+      title: "Flutter Router",
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
+      routerConfig: AppNavigation.goRouterProvider,
     );
   }
 }
